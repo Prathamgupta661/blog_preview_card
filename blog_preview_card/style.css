@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myfont;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: mybold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: myfont;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: mybold;
+}
+.card img{
+    padding: 0px;
+    border-radius: 40px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color:hsl(47, 88%, 63%);
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 4px;
+    font-family: mybold;
+    font-weight: 1000;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: mybold;
+}
+.card a:hover{
+    color: hsl(47, 88%, 63%);
+}
+.card p{
+    color: hsl(0, 0%, 50%);
+}
+.author{
+    display : flex;
+    align-items: center;
+    margin-bottom: 10px
+}
+.author span{
+    margin-left: 10px;
+    font-family: mybold;
+    font-weight: 800;
+    font-size:  18px;
+}
+.attribution{
+    background-color:hsl(47, 88%, 63%);
+    font-family: mybold;
+}
+.attribution a{
+    text-decoration: none;
+}
+
+
